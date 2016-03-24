@@ -1,0 +1,46 @@
+html {
+	font-family: 'Roboto Slab', serif;
+}
+
+.navbar-default {
+	height: 125px;
+	color: #f5941f;
+	background-color: white !important;
+	border: none !important;
+}
+
+.navbar-brand {
+	margin-top: 15px;
+}
+
+.navbar-text a {
+	color: #f5941f !important;
+	font-weight: 400;
+	font-size: 18pt;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+
+.navbar-text a:hover {
+	text-decoration: none;
+	color: #484848 !important;
+}
+
+/** HEADER STYLING BEGINS HERE **/
+.jumbotron {
+	background-image: url('../img/black_pattern.png');
+	background-size: cover, 100%, no-repeat;
+	height: 639px;
+}
+
+.jumbotron h1 {
+	color: white !important;
+	font-size: 15em;
+	font-weight: 700;
+	margin-top: -20px;
+}
+
+#video {
+	float: right !important;
+	margin-top: 45px;
+}
