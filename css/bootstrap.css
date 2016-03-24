@@ -4518,14 +4518,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 14px;
 }
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  float: right;
 }
 @media (min-width: 768px) {
   .navbar-text {
-    float: left;
+    float: right;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 50px;
   }
 }
 @media (min-width: 768px) {
@@ -5294,10 +5294,8 @@ a.thumbnail.active {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding-bottom: 13px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
