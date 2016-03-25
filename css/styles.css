@@ -2,6 +2,10 @@ body {
 	font-family: 'Roboto Slab', serif !important;
 }
 
+.float-right {
+	float: right !important;
+}
+
 .navbar-default {
 	height: 125px;
 	color: #f5941f;
@@ -42,7 +46,7 @@ body {
 
 #about {
 	float: left;
-	margin-top: 50px;
+	margin-top: 40px;
 	color: white;
 }
 
@@ -63,7 +67,7 @@ body {
 
 #video {
 	float: right !important;
-	margin-top: 50px
+	margin-top: 40px
 }
 
 .embed-responsive-item {
@@ -75,6 +79,7 @@ body {
 .how {
 	background-color: #f1efec;
 	background-image: url('../img/logo_opacity.png');
+	background-position: center 100px;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: #a54b9c;
@@ -83,6 +88,31 @@ body {
 
 hr {
 	text-align: center;
-	color: black;
+	border-color: black !important;
 	width: 50px;
+}
+
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+
+.service-box p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .service-box {
+    margin: 20px auto 0;
+  }
+}
+
+/** GET STARTED STYLING BEGINS HERE **/
+
+.getstarted {
+	background-image: url('../img/yellow_quote.png');
+	background-size: cover;
+	background-repeat: none;
 }
