@@ -44,14 +44,16 @@ body {
 	margin-top: -20px;
 }
 
-#about {
+#about-header {
 	float: left;
 	margin-top: 40px;
-	color: white;
+  color: white;
 }
 
-#about p{
+#about-header p {
 	font-size: 1.2em;
+  color: white;
+  text-align: left;
 }
 
 
@@ -72,6 +74,22 @@ body {
 
 .embed-responsive-item {
 	border: none !important;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #video {
+    width: 650px;
+  }
+
+  #about-header p {
+    width: 700px;
+    float: none;
+    font-size: 16px;
+  }
+
+  .list-group li {
+    width: 700px;
+  }
 }
 
 /** HOW IT WORKS STYLING BEGINS HERE **/
@@ -103,16 +121,251 @@ hr {
   margin-bottom: 50px;
 }
 
-@media (min-width: 992px) {
-  .service-box {
-    margin: 20px auto 0;
+/** GET STARTED STYLING BEGINS HERE **/
+
+.start {
+  background-image: url('../img/yellow_quote.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: -118px;
+}
+
+.start h1 {
+  color: #a54b9c;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.start p {
+  color: black;
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #a54b9c !important;
+  color: white !important;
+  border: none !important;
+  width: 150px;
+  height: 50px;
+  font-size: 20px !important;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 50%;
+  margin-left: 42%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .start {
+    margin-top: -80px;
+  }
+
+  .start h1 {
+  	margin-top: 90px;
+  }
+
+  .start p {
+  	margin-top: 10px;
+  	font-size: 18px;
+  }
+
+  .btn {
+  	margin-top: 10px;
+  	margin-left: 40%
   }
 }
 
-/** GET STARTED STYLING BEGINS HERE **/
+/** THE NITTY GRITTY BEGINS HERE **/
+.nitty {
+	background-color: #f5f2ee;
+	color: #686868;
+	height: 455px;
+}
 
-.getstarted {
-	background-image: url('../img/yellow_quote.png');
-	background-size: cover;
-	background-repeat: none;
+.nitty h1 {
+  color: #a54b9c;
+  text-align: center;
+}
+
+.nitty p {
+  float: right;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.nitty img {
+  margin-top: -200px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nitty {
+    margin-top: -130px;
+    height: 300px;
+  }
+
+  .nitty img {
+  	visibility: hidden;
+  }
+
+  .nitty p {
+  	margin-top: 30px;
+  	float: none;
+  	width: 100%;
+  }
+}
+
+/** THE NITTY GRITTY BEGINS HERE **/
+.signup {
+  background-image: url('../img/orange_quote.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 850px;
+  margin-top: -150px;
+}
+
+#info {
+	float: left;
+}
+
+#info p {
+  color: white;
+  text-align: right;
+  margin-top: 150px;
+}
+
+#arrow {
+  float: left;
+  margin-top: 20px;
+}
+
+#formbox {
+  float: right;
+  background-color: white;
+  padding: 50px;
+  margin-top: -295px;
+  height: 490px;
+}
+
+#formbox h2, p {
+  text-align: center;
+  color: #636363;
+  margin-top: -20px;
+}
+
+.form-control-label {
+  color: #636363;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+#formbox input {
+  background-color: #e4e4e4;
+}
+
+.submit {
+  margin-left: 330px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .signup {
+  	margin-top: -60px;
+    height: 1000px;
+    margin-bottom: 0px;
+  }
+
+  #info P {
+  	margin-top: -200px;
+  	font-size: 10.5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  #arrow {
+    visibility: hidden;
+  }
+
+  #formbox {
+    width: 100%;
+    margin-top: -150px;
+    height: 430px;
+  }
+
+  #formbox h2, p {
+    margin-top: -30px;
+  }
+
+  .submit {
+    margin-left: 380px;
+    margin-top: -1px;
+  }
+}
+
+.footer {
+  background-color: #636363;
+}
+
+#about-footer {
+  margin-top: 20px;
+  float: left;
+}
+
+#about-footer p {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+#about-footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+#about-footer a:hover {
+  background-color: transparent !important;
+}
+
+#about-business {
+  margin-top: 20px;
+  float: right;
+}
+
+#about-business p {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+#about-business a {
+  color: white;
+  text-decoration: underline;
+}
+
+#about-business a:hover {
+  background-color: transparent !important;
+}
+
+#cities p {
+  color: white;
+}
+
+#footer hr {
+  background-color: white;
+}
+
+#copyright p {
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    margin-top: -283px;
+  }
+
+  #cities p {
+    font-size: 14px;
+  }
 }
